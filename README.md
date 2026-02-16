@@ -29,14 +29,14 @@ python server.py -start -port <PORT> -passcode <PASSCODE>
 
 ### Start Client
 ```
-python client.py -host <HOST> -port <PORT> -username <USERNAME> -passcode <PASSCODE>
+python client.py -join -host <HOST> -port <PORT> -username <USERNAME> -passcode <PASSCODE>
 ```
 
 Example:
 ```
 python server.py -start -port 1234 -passcode 123
 
-python client.py -host 127.0.0.1 -port 1234 -username user1 -passcode 123
+python client.py -join -host 127.0.0.1 -port 1234 -username user1 -passcode 123
 ```
 
 ## Commands (In Chat)
