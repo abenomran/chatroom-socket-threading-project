@@ -1,4 +1,4 @@
-# Chatroom Socket/Threading Project
+# TCP Chatroom Socket/Threading Project
 
 ## Overview
 This project is a simple multi-client chatroom built using Python sockets and threading.  
