@@ -108,6 +108,7 @@ class Server:
                 print(username + ": send message to " + receiver_username)
                 sys.stdout.flush()
                 self.lock.release()
+                break
             elif msg == ":Exit":
                 clientsocket.close()
                 del self.clients[username]
